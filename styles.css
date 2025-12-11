@@ -38,8 +38,16 @@ body {
 
 .row {
   flex: 1;
-  border: 2px solid red;
+  border: 3px solid white;
   border-radius: 2em;
+}
+
+.row1 {
+  background-color: lightslategray;
+}
+
+.row2 {
+  background-color: lightseagreen;
 }
 
 .row3 {
@@ -50,6 +58,22 @@ body {
 
 .row-col {
   flex: 1;
-  border: 2px solid red;
+  border: 3px solid white;
   border-radius: 2em;
+}
+
+.left {
+  background-color: lightblue;
+}
+
+.right {
+  background-color: lightcoral;
+}
+
+.top {
+  background-color: lightgoldenrodyellow;
+}
+
+.bottom {
+  background-color: lightgreen;
 }
