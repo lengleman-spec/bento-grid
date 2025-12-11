@@ -30,11 +30,25 @@ body {
 
 .col-right {
   flex: 1;
+  gap: 1em;
+  border-radius: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  flex: 1;
   border: 2px solid red;
   border-radius: 2em;
 }
 
-.row {
+.row3 {
+  display: flex;
+  border: none;
+  gap: 1em;
+}
+
+.row-col {
   flex: 1;
   border: 2px solid red;
   border-radius: 2em;
